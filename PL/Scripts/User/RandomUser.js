@@ -1,5 +1,8 @@
-﻿$(document).ready(function () {
+﻿
+
+$(document).ready(function () {
     GetAll();
+  
 });
 
 
@@ -25,4 +28,9 @@ function GetAll() {
             }
         });
 };
+
+function Limpiar() {
+    $('#registros').empty();
+    
+}
 
